@@ -1,0 +1,41 @@
+/* for mobile view */
+@media only screen and (max-width: 700px) {
+
+}
+/* for desktop view */
+@media only screen and (min-width: 700px) {
+
+}
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+/* styles for top section */
+#top {
+    background-image: url(./images/topimage.png);
+    background-size: 100% 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+   
+}
+/* Should be able to use flexbox for most of these sections */
+/* styles for services */
+#services{
+
+}
+
+/* styles for clients */
+#clients{
+
+}
+
+/* styles for team  */
+#team{
+
+}
+
+/* styles for contact */
+#contact{
+
+}
