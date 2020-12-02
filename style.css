@@ -7,32 +7,107 @@
 
 }
 body{
-    color: white;
+    color: #ffffff;
     background-color: black;
-    text-align: center;
+    
 }
+/* styles for the top section with co.name */
+#coname{
+    display: flex;
+    justify-content: space-between;
+}
+#header{
+    margin: auto auto auto 5%;
+}
+#toad{
+    font-size: 60px;
+}
+
+
 /* styles for top section */
 #top {
     background-image: url(./images/topimage.png);
     background-size: 100% 100%;
     margin: auto;
     background-repeat: no-repeat;
-   
+
 }
+#top p{
+    font-size: 40px;
+    padding: 2% 50% 1% 5%;
+}
+#top .help{
+    background-color: #a00710;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 28px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto auto 5% 5%;
+}
+
 /* Should be able to use flexbox for most of these sections */
 /* styles for services */
 #services{
-
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+#offers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    font-size: 25px;
+}
+#logo {
+    margin-top: auto;
+}
+#logo2{
+    margin-bottom: 20%;
+}
+#seo{
+    margin-top: auto;
 }
 
 /* styles for clients */
 #clients{
-
+    text-align: center;
+}
+#clientTop{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+#clientTop img{
+    margin-top: 2%;
+}
+#business{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    /* margin-bottom: 10%; */
+    
+}
+#business img{
+    width: 250px;   
 }
 
 /* styles for team  */
 #team{
-
+    text-align: center;
+    margin-top: 20%;
+}
+#team h1{
+    margin-bottom: 10%;
+    font-size: 50px;
+    
+}
+#ours{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ours img{
+    width: 300px;
 }
 
 /* styles for contact */
