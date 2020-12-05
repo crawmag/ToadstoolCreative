@@ -9,7 +9,10 @@
 body{
     color: #ffffff;
     background-color: black;
-    
+    font-family: 'Asap', sans-serif;    
+}
+button{
+    cursor: pointer;
 }
 /* styles for the top section with co.name */
 #coname{
@@ -22,6 +25,9 @@ body{
 #toad{
     font-size: 60px;
 }
+#links{
+    margin: 2% 5% auto auto;
+}
 
 
 /* styles for top section */
@@ -33,8 +39,13 @@ body{
 
 }
 #top p{
-    font-size: 40px;
-    padding: 2% 50% 1% 5%;
+    font-size: 30px;
+    margin: 5% 50% 5% 5%;
+}
+#call{
+    font-size: 50px;
+    padding-top: 5%;
+    margin: auto auto auto 5%;
 }
 #top .help{
     background-color: #a00710;
@@ -92,6 +103,22 @@ body{
     width: 250px;   
 }
 
+#security,
+#nathan,
+#gilbert,
+#bleu{
+    position: relative;
+    text-align: right;
+}
+.coname{  
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    color: #ffffff;
+}
+
 /* styles for team  */
 #team{
     text-align: center;
@@ -109,8 +136,55 @@ body{
 #ours img{
     width: 300px;
 }
+#devina,
+#will,
+#magen {
+    position: relative;
+    text-align: right;
+}
+
+.name{
+    position: absolute;
+    bottom: 110px;
+    right: 6px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+
+}
+.title{
+    position: absolute;
+    bottom: -20px;
+    right: 6px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+}
 
 /* styles for contact */
 #contact{
 
+}
+#contact h2{
+    font-size: 40px;
+    margin: 10% auto auto 5%
+}
+#contact .help{
+    background-color: #a00710;
+    color: #ffffff;
+    padding: 1%;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto auto auto 75%;
+}
+
+.contact p{
+    font-size: 20px;
+    margin: auto auto auto 5%;
+}
+.location{
+    margin: auto auto 5% 5%;
+}
+.phone{
+    margin: 5% auto auto 5%;
+    padding-bottom: 5%;
 }
