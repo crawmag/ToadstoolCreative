@@ -1,11 +1,89 @@
+
 /* for mobile view */
 @media only screen and (max-width: 700px) {
-
+    /* top section and header */
+    #toad{
+        font-size: 40px;
+    }
+    #header{
+        font-size: 20px;
+    }
+    #top p{
+        font-size: 20px;
+        margin: auto 45% 5% 5%;
+    }
+    #call{
+        font-size: 25px;
+        margin: auto auto 10% 5%;
+        padding-top: 2%;
+    }
+    #top .help{
+        font-size: 20px;
+    }
+    /* ------------------------------------------------ */
+    /* service section */
+    #services{
+        font-size: 25px;
+        padding-top: 5%;
+    }
+    
+    #logo img{
+        width: 100px;
+        margin-bottom: 2%;
+        margin-top: 10%;
+    }
+    #seo img{
+        width: 100px;
+        margin-top: 10%;
+    }
+    #website img{
+        width: 100px;
+        margin-top: 10%;
+    }
 }
+/* ------------------------------------------------------------------------------------------------------------- */
 /* for desktop view */
 @media only screen and (min-width: 700px) {
+    /* top section and header */
+    #toad{
+        font-size: 60px;
+    }
+    #top p{
+        font-size: 30px;
+        margin: 5% 50% 5% 5%;
+    }
+    #call{
+        font-size: 50px;
+        padding-top: 5%;
+        margin: auto auto auto 5%;
+    }
+    #top .help{
+        font-size: 28px;
+    }
+    /* ------------------------------------------------- */
+    /* service section */
+    #services{
+        font-size: 30px;
+    }
+    #offers{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    #logo {
+        margin-top: auto;
+    }
+    #logo2{
+        margin-bottom: 20%;
+    }
+    #seo{
+        margin-top: auto;
+    }
 
 }
+/* --------------------------------------------------------------------------------------------------------------- */
+
 body{
     color: #ffffff;
     background-color: black;
@@ -14,6 +92,7 @@ body{
 button{
     cursor: pointer;
 }
+/* ---------------------------------------------------------------- */
 /* styles for the top section with co.name */
 #coname{
     display: flex;
@@ -22,14 +101,12 @@ button{
 #header{
     margin: auto auto auto 5%;
 }
-#toad{
-    font-size: 60px;
-}
+
 #links{
     margin: 2% 5% auto auto;
 }
 
-
+/* ------------------------------------------------------------------- */
 /* styles for top section */
 #top {
     background-image: url(./images/topimage.png);
@@ -38,48 +115,26 @@ button{
     background-repeat: no-repeat;
 
 }
-#top p{
-    font-size: 30px;
-    margin: 5% 50% 5% 5%;
-}
-#call{
-    font-size: 50px;
-    padding-top: 5%;
-    margin: auto auto auto 5%;
-}
+
 #top .help{
     background-color: #a00710;
     color: #ffffff;
     padding: 1%;
-    font-size: 28px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: auto auto 5% 5%;
 }
 
-/* Should be able to use flexbox for most of these sections */
+/* --------------------------------------------------------------------- */
 /* styles for services */
 #services{
     text-align: center;
     margin-top: 10%;
-    font-size: 30px;
-}
-#offers{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
-    font-size: 25px;
-}
-#logo {
-    margin-top: auto;
-}
-#logo2{
-    margin-bottom: 20%;
-}
-#seo{
-    margin-top: auto;
 }
 
+
+
+/* -------------------------------------------------------------------------- */
 /* styles for clients */
 #clients{
     text-align: center;
@@ -119,6 +174,7 @@ button{
     color: #ffffff;
 }
 
+/* ----------------------------------------------------------------------------------- */
 /* styles for team  */
 #team{
     text-align: center;
@@ -159,10 +215,9 @@ button{
     font-size: 50px;
 }
 
+/* --------------------------------------------------------------------------------- */
 /* styles for contact */
-#contact{
 
-}
 #contact h2{
     font-size: 60px;
     margin: 10% auto auto 5%
