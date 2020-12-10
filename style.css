@@ -1,245 +1,237 @@
-
 /* for mobile view */
 @media only screen and (max-width: 700px) {
-    /* top section and header */
-    #toad{
-        font-size: 40px;
-    }
-    #header{
-        font-size: 20px;
-    }
-    #top p{
-        font-size: 20px;
-        margin: auto 45% 5% 5%;
-    }
-    #call{
-        font-size: 25px;
-        margin: auto auto 10% 5%;
-        padding-top: 2%;
-    }
-    #top .help{
-        font-size: 20px;
-    }
-    /* ------------------------------------------------ */
-    /* service section */
-    #services{
-        font-size: 25px;
-        padding-top: 5%;
-    }
-    
-    #logo img{
-        width: 100px;
-        margin-bottom: 2%;
-        margin-top: 10%;
-    }
-    #seo img{
-        width: 100px;
-        margin-top: 10%;
-    }
-    #website img{
-        width: 100px;
-        margin-top: 10%;
-    }
+  /* top section and header */
+  #toad {
+    font-size: 40px;
+  }
+  #header {
+    font-size: 20px;
+  }
+  #top p {
+    font-size: 20px;
+    margin: auto 45% 5% 5%;
+  }
+  #call {
+    font-size: 25px;
+    margin: auto auto 10% 5%;
+    padding-top: 2%;
+  }
+  #top .help {
+    font-size: 20px;
+  }
+  /* ------------------------------------------------ */
+  /* service section */
+  #services {
+    font-size: 25px;
+    padding-top: 5%;
+  }
+
+  #logo img {
+    width: 100px;
+    margin-bottom: 2%;
+    margin-top: 10%;
+  }
+  #seo img {
+    width: 100px;
+    margin-top: 10%;
+  }
+  #website img {
+    width: 100px;
+    margin-top: 10%;
+  }
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 /* for desktop view */
 @media only screen and (min-width: 700px) {
-    /* top section and header */
-    #toad{
-        font-size: 60px;
-    }
-    #top p{
-        font-size: 30px;
-        margin: 5% 50% 5% 5%;
-    }
-    #call{
-        font-size: 50px;
-        padding-top: 5%;
-        margin: auto auto auto 5%;
-    }
-    #top .help{
-        font-size: 28px;
-    }
-    /* ------------------------------------------------- */
-    /* service section */
-    #services{
-        font-size: 30px;
-    }
-    #offers{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 5%;
-        font-size: 25px;
-    }
-    #logo {
-        margin-top: auto;
-    }
-    #logo2{
-        margin-bottom: 20%;
-    }
-    #seo{
-        margin-top: auto;
-    }
-
+  /* top section and header */
+  #toad {
+    font-size: 60px;
+  }
+  #top p {
+    font-size: 30px;
+    margin: 5% 50% 5% 5%;
+  }
+  #call {
+    font-size: 50px;
+    padding-top: 5%;
+    margin: auto auto auto 5%;
+  }
+  #top .help {
+    font-size: 28px;
+  }
+  /* ------------------------------------------------- */
+  /* service section */
+  #services {
+    font-size: 30px;
+  }
+  #offers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    font-size: 25px;
+  }
+  #logo {
+    margin-top: auto;
+  }
+  #logo2 {
+    margin-bottom: 20%;
+  }
+  #seo {
+    margin-top: auto;
+  }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
 
-body{
-    color: #ffffff;
-    background-color: black;
-    font-family: 'Asap', sans-serif;    
+body {
+  color: #ffffff;
+  background-color: black;
+  font-family: "Asap", sans-serif;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 /* ---------------------------------------------------------------- */
 /* styles for the top section with co.name */
-#coname{
-    display: flex;
-    justify-content: space-between;
+#coname {
+  display: flex;
+  justify-content: space-between;
 }
-#header{
-    margin: auto auto auto 5%;
+#header {
+  margin: auto auto auto 5%;
 }
 
-#links{
-    margin: 2% 5% auto auto;
+#links {
+  margin: 2% 5% auto auto;
 }
 
 /* ------------------------------------------------------------------- */
 /* styles for top section */
 #top {
-    background-image: url(./images/topimage.png);
-    background-size: 100% 100%;
-    margin: auto;
-    background-repeat: no-repeat;
-
+  background-image: url(./images/topimage.png);
+  background-size: 100% 100%;
+  margin: auto;
+  background-repeat: no-repeat;
 }
 
-#top .help{
-    background-color: #a00710;
-    color: #ffffff;
-    padding: 1%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: auto auto 5% 5%;
+#top .help {
+  background-color: #920911;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto auto 5% 5%;
 }
 
 /* --------------------------------------------------------------------- */
 /* styles for services */
-#services{
-    text-align: center;
-    margin-top: 10%;
+#services {
+  text-align: center;
+  margin-top: 10%;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /* styles for clients */
-#clients{
-    text-align: center;
+#clients {
+  text-align: center;
 }
-#clientTop{
-    margin-top: 20%;
-    margin-bottom: 5%;
-    font-size: 30px;
+#clientTop {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-size: 30px;
 }
-#clientTop img{
-    margin-top: 2%;
+#clientTop img {
+  margin-top: 2%;
 }
-#business{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
-    /* margin-bottom: 10%; */
-    
+#business {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  /* margin-bottom: 10%; */
 }
-#business img{
-    width: 250px;   
+#business img {
+  width: 250px;
 }
 
 #security,
 #nathan,
 #gilbert,
-#bleu{
-    position: relative;
-    text-align: right;
+#bleu {
+  position: relative;
+  text-align: right;
 }
-.coname{  
-    position: absolute;
-    bottom: -10px;
-    right: 10px;
-    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 35px;
-    color: #ffffff;
+.coname {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+  color: #ffffff;
 }
 
 /* ----------------------------------------------------------------------------------- */
 /* styles for team  */
-#team{
-    text-align: center;
-    margin-top: 20%;
+#team {
+  text-align: center;
+  margin-top: 20%;
 }
-#team h1{
-    margin-bottom: 10%;
-    font-size: 50px;
-    
+#team h1 {
+  margin-bottom: 10%;
+  font-size: 50px;
 }
-#ours{
-    display: flex;
-    justify-content: space-evenly;
+#ours {
+  display: flex;
+  justify-content: space-evenly;
 }
-#ours img{
-    width: 300px;
+#ours img {
+  width: 300px;
 }
 #devina,
 #will,
 #magen {
-    position: relative;
-    text-align: right;
+  position: relative;
+  text-align: right;
 }
 
-.name{
-    position: absolute;
-    bottom: 110px;
-    right: 6px;
-    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 25px;
-
+.name {
+  position: absolute;
+  bottom: 110px;
+  right: 6px;
+  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
 }
-.title{
-    position: absolute;
-    bottom: -20px;
-    right: 6px;
-    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 50px;
+.title {
+  position: absolute;
+  bottom: -20px;
+  right: 6px;
+  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 50px;
 }
 
 /* --------------------------------------------------------------------------------- */
 /* styles for contact */
 
-#contact h2{
-    font-size: 60px;
-    margin: 10% auto auto 5%
+#contact h2 {
+  font-size: 60px;
+  margin: 10% auto auto 5%;
 }
-#contact .help{
-    background-color: #a00710;
-    color: #ffffff;
-    padding: 1%;
-    font-size: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: auto auto auto 75%;
+#contact .help {
+  background-color: #920911;
+  color: #ffffff;
+  padding: 1%;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto auto auto 75%;
 }
 
-.contact p{
-    font-size: 20px;
-    margin: auto auto auto 5%;
+.contact p {
+  font-size: 20px;
+  margin: auto auto auto 5%;
 }
-.location{
-    margin: auto auto 5% 5%;
+.location {
+  margin: auto auto 5% 5%;
 }
-.phone{
-    margin: 5% auto auto 5%;
-    padding-bottom: 5%;
+.phone {
+  margin: 5% auto auto 5%;
+  padding-bottom: 5%;
 }
