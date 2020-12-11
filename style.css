@@ -12,7 +12,7 @@
     margin: auto 45% 5% 5%;
   }
   #call {
-    font-size: 20px;
+    font-size: 25px;
     margin: auto auto 5% 5%;
     padding-top: 2%;
   }
@@ -112,11 +112,20 @@
     margin-top: 5%;
     font-size: 25px;
   }
+  #website img{
+    width: 150px;
+  }
+  #logo img{
+    width: 120px;
+  }
   #logo {
     margin-top: auto;
   }
   #logo2 {
     margin-bottom: 20%;
+  }
+  #seo img{
+    width: 150px;
   }
   #seo {
     margin-top: auto;
@@ -167,6 +176,12 @@ body {
   color: #ffffff;
   background-color: black;
   font-family: "Asap", sans-serif;
+}
+h1{
+  font-weight: lighter;
+}
+h2{
+  font-weight: lighter;
 }
 button {
   cursor: pointer;
