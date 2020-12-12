@@ -30,17 +30,32 @@
         <div id="website">
             <img src="./images/design.png" alt="Website Design">
             <p>Website Design and <br> Development</p>
-            
+            <div class="overlay2">
+                <!-- <p class="text2">Devina Mendez</p> -->
+                <p class="text">Website Design and Development</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio esse porro soluta quod fuga vero vel quos. Voluptate enim expedita sed nam similique earum, eum, at quo amet labore quisquam?</p>
+            </div>            
         </div>
         <div id="logo">
             <img id="logo2" src="./images/logo.png" alt="Logo Design">
             <p>Custom Logo Design <br> and Branding</p>
-           
+            <div class="overlay2">
+                <!-- <p class="text2">Devina Mendez</p> -->
+                <p class="text">Custom Logo Design</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio esse porro soluta quod fuga vero vel quos. Voluptate enim expedita sed nam similique earum, eum, at quo amet labore quisquam?</p>
+            </div>
         </div>
         <div id="seo">
             <img src="./images/SEO.png" alt="SEO ">
             <p>SEO Strategy Creation <br> and Implementation</p>
-            
+            <div class="overlay2">
+                <!-- <p class="text2">Devina Mendez</p> -->
+                <p class="text">SEO Strategy Creation</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio esse porro soluta quod fuga vero vel quos. Voluptate enim expedita sed nam similique earum, eum, at quo amet labore quisquam?</p>
+            </div>
         </div>
         </div>
     </div>  
@@ -50,24 +65,35 @@
         <h1>Clients</h1>
         <a href="" target="_blank"><img src="./images/client.png" alt="Yelp"></a>
         </div>
-        <div id="business">
-        <div id="security">
+        <div id="business" class="slideshow-container">
+        <div id="security" class="mySlides fade">
             <a href="http://www.austinsecurityalarm.com/" target="_blank"><img src="./images/security.png" alt="Austin Security Alarms">
             <p class="coname">Central <br> Security</p></a>
         </div>
-        <div id="nathan">
+        <div id="nathan" class="mySlides fade">
             <a href="" target=""><img src="./images/nathan.png" alt="Nathan Strubhart">
             <p class="coname">Nathan <br> Strubhart</p></a>
         </div>
-        <div id="gilbert">
+        <div id="gilbert" class="mySlides fade">
             <a href="/html/golf.html" target="_blank"> <img src="./images/gilbert.png" alt="Gilbert Mendez Golf">
             <p class="coname">Gilbert <br> Mendez <br> Golf</p></a>
         </div>
-        <div id="bleu">
+        <div id="bleu" class="mySlides fade">
             <a href="/html/bleunail.html" target="_blank"><img src="./images/bleunail.png" alt="Bleu Nail Cafe">
             <p class="coname">Bleu Nail <br> Cafe</p></a>
         </div>
+        <!-- arrows -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
     </div>
     <!-- Our Team -->
     <div id="team">
@@ -121,4 +147,5 @@
        <a class="phone" href="" target="_blank"><img src="./images/phone.png" alt="Phone" width="40px"></a>
     </div>
 </body>
+<script src="./index.js"></script>
 </html>

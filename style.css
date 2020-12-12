@@ -30,18 +30,94 @@
   #logo img {
     width: 100px;
     margin-bottom: 2%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   #seo img {
     width: 100px;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   #website img {
     width: 100px;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   /* ------------------------------------------------ */
   /* Client Section */
+  /* carousel section */
+    /* Slideshow container */
+.slideshow-container {
+  display: block;
+  max-width: 100%;
+  position: relative;
+
+  margin: 10% 30% 10% 20%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: -30%;
+  border-radius: 10px;
+}
+.prev{
+ right: 100%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #D65F1C;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #D65F1C;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
   
   /* ------------------------------------------------ */
   /* Team Section */
@@ -122,7 +198,7 @@
     margin-top: auto;
   }
   #logo2 {
-    margin-bottom: 20%;
+    margin-bottom: 5%;
   }
   #seo img{
     width: 150px;
@@ -137,6 +213,11 @@
     justify-content: space-evenly;
     margin-top: 5%;
     /* margin-bottom: 10%; */
+  }
+  .prev, 
+  .next,
+  .dots{
+    display: none;
   }
   /* ----------------------------------------------------- */
   /* Team section */
@@ -225,6 +306,30 @@ button {
   margin-top: 10%;
 }
 
+#website:hover .overlay2 {
+  opacity: 1;
+}
+#logo:hover .overlay2 {
+  opacity: 1;
+}
+#seo:hover .overlay2{
+  opacity: 1;
+}
+/* having an issue with this section. it wont lay over the image like the team section */
+.overlay2 {
+
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D65F1C;
+  margin-left: 25%;
+}
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -261,6 +366,7 @@ button {
   color: #ffffff;
 }
 
+
 /* ----------------------------------------------------------------------------------- */
 /* styles for team  */
 #team {
@@ -285,7 +391,6 @@ button {
   opacity: 0;
   transition: .5s ease;
   background-color: #D65F1C;
-  
 }
 
 #devina:hover .overlay {
@@ -298,7 +403,7 @@ button {
   opacity: 1;
 }
 
-.text {
+ .text {
   color: white;
   font-size: 18px;
   /* position: absolute;
@@ -308,13 +413,8 @@ button {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
   text-align: center;
-  padding: 5px;
-}
-/* .text2{
-  font-size: 30px;
-  text-align: center;
-
-  } */
+  margin: 10px 5px;
+} 
 
 
 /* --------------------------------------------------------------------------------- */
