@@ -40,6 +40,21 @@
     width: 100px;
     margin-top: 5%;
   }
+  #seo,
+  #website,
+  #logo{
+  position: relative;
+  text-align: center;
+  
+}
+.job{
+  color: #D65F1C;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+}
   /* ------------------------------------------------ */
   /* Client Section */
   /* carousel section */
@@ -184,9 +199,12 @@ to {opacity: 1}
   }
   #offers {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 5%;
     font-size: 25px;
+  }
+  #website{
+    margin: 2% 5% auto 5%;
   }
   #website img{
     width: 150px;
@@ -194,18 +212,39 @@ to {opacity: 1}
   #logo img{
     width: 120px;
   }
+  
   #logo {
-    margin-top: auto;
+    margin: 2% 5% auto 5%;
+    padding-top: 1%;
   }
   #logo2 {
-    margin-bottom: 5%;
+    margin-bottom: 8%;
   }
   #seo img{
     width: 150px;
   }
   #seo {
-    margin-top: auto;
+    margin: 2% 5% auto 5%;
+    
   }
+  #seo2{
+    padding-top: 6%;
+  }
+  #seo,
+  #website,
+  #logo{
+  position: relative;
+  text-align: center;
+  
+}
+.job{
+  color: #D65F1C;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+}
   /* ---------------------------------------------------- */
   /* clients section */
   #business {
@@ -329,20 +368,7 @@ button {
   background-color: #D65F1C;
   margin-left: 25%;
 }
-#seo,
-  #website,
-  #logo{
-  position: relative;
-  text-align: center;
-}
-.job{
-  color: #D65F1C;
-  position: absolute;
-  top: 20px;
-  left: 200px;
-  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-  font-size: 35px;
-}
+
 
 
 
