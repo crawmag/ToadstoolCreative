@@ -1,16 +1,9 @@
 
 
-
-
-const mediaQuery = window.matchMedia('(max-width:1000px)');
-function mobileView(e){
-
-    
 var slideIndex = 0;
 // showSlides();
 //add the global timer variable
 var slides,dots,timer;
-
 function showSlides() {
     var i;
     slides = document.getElementsByClassName("mySlides");
@@ -27,7 +20,7 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     //put the timeout in the timer variable
     timer = setTimeout(showSlides, 4000); // Change image every 8 seconds
-}
+} 
 
 function plusSlides(position) {
     //clear/stop the timer
@@ -65,13 +58,18 @@ function currentSlide(index) {
     //create a new timer
     timer = setTimeout(showSlides, 4000);
 }
-}
-// all of these work without the media query- i need to figure out why they are not working with a media query- probably the way i have it set up
-if (e.matches){
+
+var mediaQuery = window.matchMedia('(max-width: 1000px)');
+
+function mobileView(e) {
+  if (e.matches) {
+    
     showSlides();
     plusSlides();
     currentSlide();
+  } 
 }
+
 
 mediaQuery.addEventListener('change',mobileView);
 mobileView(mediaQuery);
