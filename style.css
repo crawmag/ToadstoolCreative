@@ -1,3 +1,10 @@
+*{
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* for mobile view */
 @media only screen and (max-width: 1000px) {
   /* top section and header */
@@ -204,6 +211,15 @@ to {opacity: 1}
     margin-top: 5%;
     font-size: 25px;
   }
+
+  #offers p{
+    margin-top: 20%;
+  }
+  #website .text p {
+    margin: 0;
+    margin-top: -5%;
+  }
+
   #website{
     margin: 2% 5% auto 5%;
   }
@@ -211,38 +227,40 @@ to {opacity: 1}
     width: 150px;
   }
   #logo img{
-    width: 120px;
+    width: 150px;
   }
   
   #logo {
     margin: 2% 5% auto 5%;
-    padding-top: 1%;
+    /* padding-top: 1%; */
   }
-  #logo2 {
+  /* #logo2 {
     margin-bottom: 8%;
-  }
+  } */
   #seo img{
-    width: 150px;
+    width: 160px;
   }
   #seo {
     margin: 2% 5% auto 5%;
     
   }
-  #seo2{
+  /* #seo2{
     padding-top: 6%;
-  }
+  } */
   #seo,
   #website,
   #logo{
   position: relative;
   text-align: center;
+  margin-bottom: 5%;
+  padding: 5%;
   
 }
 .job{
   color: #D65F1C;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 70px;
+  left: 15px;
   text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
   font-size: 35px;
 }
@@ -297,12 +315,7 @@ to {opacity: 1}
 }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
-*{
-  /* border: 1px solid red; */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body {
   color: #ffffff;
   background-color: black;
@@ -370,17 +383,17 @@ button {
 }
 /* having an issue with this section. it wont lay over the image like the team section */
 .overlay2 {
-
-  top: 100px;
+  position: absolute;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #D65F1C;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 
@@ -390,11 +403,15 @@ button {
 /* styles for clients */
 #clients {
   text-align: center;
+  margin-top: -60px;
 }
 #clientTop {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-bottom: 5%;
   font-size: 30px;
+}
+#clientTop h2{
+  padding-bottom: 2%;
 }
 #clientTop img {
   margin-top: 2%;
@@ -482,8 +499,8 @@ button {
 /* styles for contact */
 
 #contact{
-  /* margin: 0; */
   padding-top: 250px;
+  margin-bottom: 5%;
 }
 
 #contact h2 {
@@ -508,9 +525,9 @@ button {
 }
 .location {
   margin: auto auto 5% 5%;
-  font-size: larger;
+  font-size: x-large;
 }
 .phone {
   margin: 5% auto auto 5%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
 }
