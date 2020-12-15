@@ -1,4 +1,4 @@
-*{
+* {
   border: 1px solid red;
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
 }
 
 /* for mobile view */
-@media only screen and (max-width: 768px) {
-  body{
+@media only screen and (max-width: 1000px) {
+  body {
     margin: 0;
     padding: 0;
   }
   /* top section and header */
-  #coname{
+  #coname {
     display: flex;
   }
   #toad {
@@ -21,22 +21,21 @@
   #header {
     font-size: 13px;
   }
-  #links img{
+  #links img {
     /* width: 10px; */
     margin: 0;
     padding: 25% 15% 10% 15%;
     /* size: 1%; */
   }
 
-  #top{
+  #top {
     background-position: left;
     width: 99vw;
     height: 30vh;
-
   }
   #top p {
-    font-size: 10px;
-    margin: 5% 20% 5% 0%;
+    font-size: 15px;
+    margin: 2% 25% 5% 0%;
     width: 100%;
   }
   #call {
@@ -52,15 +51,15 @@
   }
   /* ------------------------------------------------ */
   /* service section */
-  #services h2{
-      font-size: 20px;    
+  #services h2 {
+    font-size: 20px;
   }
-  #offers{
+  #offers {
     display: flex;
     justify-content: space-evenly;
   }
-  #offers p{
-    font-size: 10px;
+  #offers p {
+    font-size: 15px;
     margin: 0;
     padding: 5%;
   }
@@ -80,69 +79,71 @@
   }
   #seo,
   #website,
-  #logo{
-  position: relative;
-  text-align: center; 
-}
+  #logo {
+    position: relative;
+    text-align: center;
+  }
 
-.overlay2{
-  position: fixed;
-  /* display: none; */
-  width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #D65F1C;
-z-index: 2;
-cursor: pointer;
-}
+  .overlay2 {
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d65f1c;
+    z-index: 2;
+    cursor: pointer;
+  }
 
-.job{
-  color: #D65F1C;
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-  font-size: 20px;
-}
+  .job {
+    color: #d65f1c;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+  }
 
-#offers .text{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 10px;
-  color: white;
-  /* transform: translate(-50%,-50%);
+  #offers .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 15px;
+    color: white;
+    /* transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%); */
-  background-color:#D65F1C;
-  padding: 5%;
-  margin: 0%;
-  height: 220%;
-  width: 100%;
-}
+    background-color: #d65f1c;
+    padding: 5%;
+    margin: 0%;
+    height: 250%;
+    width: 100%;
+  }
 
   /* ------------------------------------------------ */
   /* Client Section */
   /* carousel section */
-    /* Slideshow container */
-.slideshow-container {
-  display: block;
-  max-width: 100%;
-  position: relative;
+  /* Slideshow container */
+  .slideshow-container {
+    display: block;
+    max-width: 100%;
+    position: relative;
 
-  margin: 10% 30% 10% 20%;
-}
+    margin: 10% 30% 10% 20%;
+  }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  
-}
-/* Next & previous buttons */
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  #business img {
+    width: 250px;
+  }
+  /* Next & previous buttons
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -158,20 +159,20 @@ cursor: pointer;
   user-select: none;
 }
 /* Position the "next button" to the right */
-.next {
+  /* .next {
   right: -30%;
   border-radius: 10px;
 }
 .prev{
  right: 100%;
-}
+} */
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: #D65F1C;
-}
-/* The dots/bullets/indicators */
-.dot {
+  /* On hover, add a black background color with a little bit see-through */
+  /* .prev:hover, .next:hover {
+  background-color: #D65F1C; */
+  /* } */
+  /* The dots/bullets/indicators */
+  /* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -184,10 +185,10 @@ cursor: pointer;
 
 .active, .dot:hover {
   background-color: #D65F1C;
-}
+} */
 
-/* Fading animation */
-.fade {
+  /* Fading animation */
+  /* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -202,11 +203,11 @@ to {opacity: 1}
 @keyframes fade {
 from {opacity: .4}
 to {opacity: 1}
-}
-  
+} */
+
   /* ------------------------------------------------ */
   /* Team Section */
-  #ours{
+  #ours {
     display: block;
   }
   #ours img {
@@ -218,29 +219,28 @@ to {opacity: 1}
   #devina,
   #will,
   #magen {
-  position: relative;
-  text-align: right;
-}
+    position: relative;
+    text-align: right;
+  }
 
-
-.name {
-  position: absolute;
-  bottom: 32px;
-  right: 170px;
-  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-  font-size: 30px;
-}
-#will .name{
-  right: 140px;
-}
-.title {
-  position: absolute;
-  bottom: 50px;
-  right: 6px;
-  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-  font-size: 20px;
-}
-/* ----------------------------------------------------- */
+  .name {
+    position: absolute;
+    bottom: 32px;
+    right: 170px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+  }
+  #will .name {
+    right: 140px;
+  }
+  .title {
+    position: absolute;
+    bottom: 50px;
+    right: 6px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+  }
+  /* ----------------------------------------------------- */
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -263,10 +263,10 @@ to {opacity: 1}
   #top .help {
     font-size: 28px;
     padding: 1% 2%;
-  border-color: transparent;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: auto auto 5% 5%;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto auto 5% 5%;
   }
   /* ------------------------------------------------- */
   /* service section */
@@ -280,7 +280,7 @@ to {opacity: 1}
     font-size: 25px;
   }
 
-  #offers p{
+  #offers p {
     margin-top: 20%;
   }
   #website .text p {
@@ -288,16 +288,16 @@ to {opacity: 1}
     margin-top: -5%;
   }
 
-  #website{
+  #website {
     margin: 2% 5% auto 5%;
   }
-  #website img{
+  #website img {
     width: 150px;
   }
-  #logo img{
+  #logo img {
     width: 150px;
   }
-  
+
   #logo {
     margin: 2% 5% auto 5%;
     /* padding-top: 1%; */
@@ -305,33 +305,31 @@ to {opacity: 1}
   /* #logo2 {
     margin-bottom: 8%;
   } */
-  #seo img{
+  #seo img {
     width: 160px;
   }
   #seo {
     margin: 2% 5% auto 5%;
-    
   }
   /* #seo2{
     padding-top: 6%;
   } */
   #seo,
   #website,
-  #logo{
-  position: relative;
-  text-align: center;
-  margin-bottom: 5%;
-  padding: 5%;
-  
-}
-.job{
-  color: #D65F1C;
-  position: absolute;
-  top: 70px;
-  left: 15px;
-  text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-  font-size: 35px;
-}
+  #logo {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  .job {
+    color: #d65f1c;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+  }
   /* ---------------------------------------------------- */
   /* clients section */
   #business {
@@ -340,11 +338,14 @@ to {opacity: 1}
     margin-top: 5%;
     /* margin-bottom: 10%; */
   }
-  .prev, 
-  .next,
-  .dots{
-    display: none;
+  #business img {
+    width: 450px;
   }
+  /* .prev,
+  .next,
+  .dots {
+    display: none;
+  } */
   /* ----------------------------------------------------- */
   /* Team section */
   #ours {
@@ -358,29 +359,29 @@ to {opacity: 1}
   #devina,
   #will,
   #magen {
-  position: relative;
-  text-align: right;
-}
+    position: relative;
+    text-align: right;
+  }
 
-.name {
-  position: absolute;
-  bottom: 110px;
-  right: 6px;
-  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
-  font-size: 35px;
-  margin: 0;
-  padding: 2%;
-}
-.title {
-  position: absolute;
-  bottom: -20px;
-  right: 6px;
-  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
-  font-size: 4rem;
-  word-break: normal;
-  margin: 0;
-  padding: 2%;
-}
+  .name {
+    position: absolute;
+    bottom: 110px;
+    right: 6px;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    margin: 0;
+    padding: 2%;
+  }
+  .title {
+    position: absolute;
+    bottom: -20px;
+    right: 6px;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
+    word-break: normal;
+    margin: 0;
+    padding: 2%;
+  }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
 
@@ -389,10 +390,10 @@ body {
   background-color: black;
   font-family: "Asap", sans-serif;
 }
-h1{
+h1 {
   font-weight: lighter;
 }
-h2{
+h2 {
   font-weight: lighter;
 }
 button {
@@ -439,7 +440,7 @@ button {
 #logo:hover .overlay2 {
   opacity: 1;
 }
-#seo:hover .overlay2{
+#seo:hover .overlay2 {
   opacity: 1;
 }
 /* having an issue with this section. it wont lay over the image like the team section */
@@ -452,13 +453,10 @@ button {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #D65F1C;
+  transition: 0.5s ease;
+  background-color: #d65f1c;
   /* margin-left: 25%; */
 }
-
-
-
 
 /* -------------------------------------------------------------------------- */
 /* styles for clients */
@@ -471,16 +469,16 @@ button {
   margin-bottom: 5%;
   font-size: 30px;
 }
-#clientTop h2{
+#clientTop h2 {
   padding-bottom: 2%;
 }
 #clientTop img {
   margin-top: 2%;
 }
 
-#business img {
+/* #business img {
   width: 250px;
-}
+} */
 
 #security,
 #nathan,
@@ -497,7 +495,78 @@ button {
   font-size: 35px;
   color: #ffffff;
 }
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 230%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 20%;
+  border-radius: 10px;
+}
+.prev {
+  right: 75%;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #d65f1c;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #d65f1c;
+}
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* ----------------------------------------------------------------------------------- */
 /* styles for team  */
@@ -509,7 +578,7 @@ button {
   margin-bottom: 10%;
   font-size: 50px;
 }
-#ours img{
+#ours img {
   display: block;
 }
 .overlay {
@@ -521,8 +590,8 @@ button {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #D65F1C;
+  transition: 0.5s ease;
+  background-color: #d65f1c;
   margin: 0px;
   padding: 5%;
 }
@@ -537,17 +606,17 @@ button {
   opacity: 1;
 }
 
- .text {
+.text {
   color: white;
   font-size: 25px;
-  text-align: center;;
+  text-align: center;
   margin-top: 50px;
   margin-bottom: -60px;
   padding: 20px;
-} 
+}
 
-.circle{
-  color: #D65F1C;
+.circle {
+  color: #d65f1c;
   position: absolute;
   top: 20px;
   left: 30px;
@@ -555,11 +624,10 @@ button {
   font-size: 35px;
 }
 
-
 /* --------------------------------------------------------------------------------- */
 /* styles for contact */
 
-#contact{
+#contact {
   padding-top: 250px;
   margin-bottom: 5%;
 }
