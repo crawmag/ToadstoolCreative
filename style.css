@@ -1,9 +1,9 @@
-* {
+/* * {
   border: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* for mobile view */
 @media only screen and (max-width: 1000px) {
@@ -349,12 +349,20 @@ to {opacity: 1}
   /* ----------------------------------------------------- */
   /* Team section */
   #ours {
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
+    /* justify-content: space-evenly; */
   }
-  #ours img {
-    width: 500px;
-    height: 520px;
+  #devina img {
+    width: 100%;
+    height: 100%;
+  }
+  #will img {
+    width: 100%;
+    height: 100%;
+  }
+  #magen img {
+    width: 100%;
+    height: 100%;
   }
   #devina,
   #will,
@@ -384,7 +392,7 @@ to {opacity: 1}
   }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
-
+/* outside of media queries */
 body {
   color: #ffffff;
   background-color: black;
