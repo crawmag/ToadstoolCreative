@@ -1,9 +1,9 @@
-/* * {
-  border: 1px solid red;
+* {
+  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 /* for mobile view */
 @media only screen and (max-width: 1000px) {
@@ -16,10 +16,10 @@
     display: flex;
   }
   #toad {
-    font-size: 30px;
+    font-size: 40px;
   }
   #header {
-    font-size: 13px;
+    font-size: 15px;
   }
   #links img {
     /* width: 10px; */
@@ -29,52 +29,54 @@
   }
 
   #top {
-    background-position: left;
-    width: 99vw;
-    height: 30vh;
+    background-position: center;
   }
-  #top p {
-    font-size: 15px;
-    margin: 2% 25% 5% 0%;
-    width: 100%;
-  }
+  
   #call {
     margin: 0;
     padding: 5%;
-    width: 75%;
+    width: 100%;
   }
+  
   #top .help {
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 10%;
-    padding: 2% 4%;
+    border-color: transparent;
+    padding: 1% 2%;
     margin-left: 5%;
+    margin-bottom: 5%;
   }
   /* ------------------------------------------------ */
   /* service section */
   #services h2 {
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
   }
   #offers {
     display: flex;
     justify-content: space-evenly;
   }
   #offers p {
-    font-size: 15px;
+    font-size: 5px;
     margin: 0;
-    padding: 5%;
+    /* padding: 5%; */
+  }
+  #logo p, #seo p, #website p{
+    font-size: 15px;
   }
 
   #logo img {
-    width: 50px;
+    width: 60px;
     margin-bottom: 2%;
     margin-top: 5%;
   }
   #seo img {
-    width: 50px;
+    width: 70px;
+    margin-bottom: 1%;
     margin-top: 5%;
   }
   #website img {
-    width: 50px;
+    width: 60px;
     margin-top: 5%;
   }
   #seo,
@@ -82,19 +84,20 @@
   #logo {
     position: relative;
     text-align: center;
+    width: 250px;
   }
 
   .overlay2 {
     position: fixed;
     /* display: none; */
     width: 100%;
-    height: 100%;
+    height: 105%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #d65f1c;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
   }
 
@@ -120,12 +123,26 @@
     background-color: #d65f1c;
     padding: 5%;
     margin: 0%;
-    height: 250%;
+    height: 270%;
     width: 100%;
   }
 
   /* ------------------------------------------------ */
   /* Client Section */
+   
+  #clientTop{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+  #clientTop h2{
+    font-size: 25px;
+    padding-top: 8%;
+  }
+  #clientTop img{
+    padding-top: 2%;
+    width: 35px;
+  }
   /* carousel section */
   /* Slideshow container */
   .slideshow-container {
@@ -210,6 +227,9 @@ to {opacity: 1}
   #ours {
     display: block;
   }
+  #team h2{
+    font-size: 25px;
+  }
   #ours img {
     width: 100%;
     height: 170px;
@@ -241,6 +261,37 @@ to {opacity: 1}
     font-size: 20px;
   }
   /* ----------------------------------------------------- */
+  /* styles for contact */
+  #contact h2{
+      font-weight: 600;
+      font-size: 35px;
+      margin: 10% auto auto 5%;
+    }
+    .contact p {
+      font-size: 20px;
+      margin: auto auto auto 5%;
+    }
+  
+    #contact .help {
+      font-size: 15px;
+      padding: 1% 2%;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  
+    .location {
+      margin: auto auto 5% 5%;
+      font-size: medium;
+    }
+  
+    .phone {
+      margin: 5% auto auto 5%;
+    }
+    .phone img{
+      width: 20px;
+      
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -281,7 +332,7 @@ to {opacity: 1}
   }
 
   #offers p {
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #website .text p {
     margin: 0;
@@ -292,10 +343,10 @@ to {opacity: 1}
     margin: 2% 5% auto 5%;
   }
   #website img {
-    width: 150px;
+    width: 120px;
   }
   #logo img {
-    width: 150px;
+    width: 120px;
   }
 
   #logo {
@@ -306,7 +357,7 @@ to {opacity: 1}
     margin-bottom: 8%;
   } */
   #seo img {
-    width: 160px;
+    width: 130px;
   }
   #seo {
     margin: 2% 5% auto 5%;
@@ -330,8 +381,20 @@ to {opacity: 1}
     text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
     font-size: 35px;
   }
+  
   /* ---------------------------------------------------- */
   /* clients section */
+  #clientTop {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 30px;
+  } 
+
+  #clients {
+  text-align: center;
+  margin-top: -60px;
+}
+
   #business {
     display: flex;
     justify-content: space-evenly;
@@ -339,7 +402,8 @@ to {opacity: 1}
     /* margin-bottom: 10%; */
   }
   #business img {
-    width: 450px;
+    width: 25vw;
+    height: 50vh;
   }
   /* .prev,
   .next,
@@ -349,20 +413,31 @@ to {opacity: 1}
   /* ----------------------------------------------------- */
   /* Team section */
   #ours {
-    display: inline-block;
-    /* justify-content: space-evenly; */
-  }
-  #devina img {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0;
     width: 100%;
+    padding: 1%;
+  }
+
+  #team h2 {
+  margin-bottom: 10%;
+  font-size: 50px;
+} 
+  #devina img {
+    float: left;
+    width: 100%; 
     height: 100%;
   }
   #will img {
+    float: left;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
   }
   #magen img {
+    float: left;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
   }
   #devina,
   #will,
@@ -389,6 +464,35 @@ to {opacity: 1}
     word-break: normal;
     margin: 0;
     padding: 2%;
+  }
+
+  /*------------Contact section---------------*/
+  #contact h2 {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 10% auto auto 5%;
+  }
+  .contact p {
+    font-size: 30px;
+    margin: auto auto auto 5%;
+  }
+
+  #contact .help {
+    font-size: 25px;
+    padding: 1% 2%;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .location {
+    margin: auto auto 5% 5%;
+    font-size: x-large;
+  }
+
+  .phone {
+    margin: 5% auto auto 5%;
+    width:40px;
   }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -458,8 +562,8 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   opacity: 0;
   transition: 0.5s ease;
   background-color: #d65f1c;
@@ -468,15 +572,8 @@ button {
 
 /* -------------------------------------------------------------------------- */
 /* styles for clients */
-#clients {
-  text-align: center;
-  margin-top: -60px;
-}
-#clientTop {
-  margin-top: 15%;
-  margin-bottom: 5%;
-  font-size: 30px;
-}
+
+
 #clientTop h2 {
   padding-bottom: 2%;
 }
@@ -582,10 +679,7 @@ button {
   text-align: center;
   margin-top: 20%;
 }
-#team h2 {
-  margin-bottom: 10%;
-  font-size: 50px;
-}
+
 #ours img {
   display: block;
 }
@@ -595,7 +689,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
@@ -636,35 +730,13 @@ button {
 /* styles for contact */
 
 #contact {
-  padding-top: 250px;
-  margin-bottom: 5%;
-}
-
-#contact h2 {
-  font-weight: 600;
-  font-size: 60px;
-  margin: 10% auto auto 5%;
+  padding-top: 20%;
+  margin-bottom: 10px;
 }
 #contact .help {
   background-color: #920911;
   color: #ffffff;
-  padding: 1% 2%;
-  font-size: 25px;
-  border-radius: 10px;
-  border-color: transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: auto auto auto 75%;
 }
 
-.contact p {
-  font-size: 30px;
-  margin: auto auto auto 5%;
-}
-.location {
-  margin: auto auto 5% 5%;
-  font-size: x-large;
-}
-.phone {
-  margin: 5% auto auto 5%;
-  /* padding-bottom: 5%; */
-}
+
