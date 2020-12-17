@@ -31,13 +31,13 @@
   #top {
     background-position: center;
   }
-  
+
   #call {
     margin: 0;
     padding: 5%;
     width: 100%;
   }
-  
+
   #top .help {
     font-size: 15px;
     border-radius: 10%;
@@ -48,26 +48,25 @@
   }
   /* ------------------------------------------------ */
   /* service section */
+  #services {
+    display: block;
+  }
+
   #services h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 5%;
+    padding-top: 10%;
   }
-  #offers {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  #offers p {
-    font-size: 5px;
-    margin: 0;
-    /* padding: 5%; */
-  }
-  #logo p, #seo p, #website p{
-    font-size: 15px;
+
+  #logo p,
+  #seo p,
+  #website p {
+    font-size: 20px;
   }
 
   #logo img {
     width: 60px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-top: 5%;
   }
   #seo img {
@@ -85,12 +84,15 @@
     position: relative;
     text-align: center;
     width: 250px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .overlay2 {
     position: fixed;
     /* display: none; */
-    width: 100%;
+    width: 90%;
     height: 105%;
     top: 0;
     left: 0;
@@ -111,6 +113,7 @@
   }
 
   #offers .text {
+    text-indent: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -121,24 +124,25 @@
     background-color: #d65f1c;
     padding: 5%;
     margin: 0%;
-    height: 270%;
+    height: 160%;
     width: 100%;
+    text-align: left;
   }
 
   /* ------------------------------------------------ */
   /* Client Section */
-   
-  #clientTop{
+
+  #clientTop {
     justify-content: center;
     align-items: center;
     text-align: center;
-  } 
-  #clientTop h2{
+  }
+  #clientTop h2 {
     font-size: 25px;
     padding-top: 8%;
     margin-top: 40%;
   }
-  #clientTop img{
+  #clientTop img {
     padding-top: 2%;
     width: 35px;
     margin-bottom: 5%;
@@ -157,7 +161,6 @@
     margin-top: 5%;
     margin-bottom: 5%;
   }
- 
 
   /* Hide the images by default */
   .mySlides {
@@ -176,15 +179,13 @@
     right: 80%;
     bottom: 40%;
   }
-  
-  
 
   /* ------------------------------------------------ */
   /* Team Section */
   #ours {
     display: block;
   }
-  #team h2{
+  #team h2 {
     font-size: 25px;
     margin-top: 40%;
   }
@@ -211,7 +212,7 @@
   #will .name {
     right: 160px;
   }
-  
+
   .title {
     position: absolute;
     bottom: 15px;
@@ -225,40 +226,38 @@
     text-align: center;
     /* margin-top: 2px; */
     /* margin-bottom: -50px; */
-    
   }
   /* ----------------------------------------------------- */
   /* styles for contact */
-  #contact h2{
-      font-weight: 600;
-      font-size: 35px;
-      margin: 10% auto auto 5%;
-    }
-    .contact p {
-      font-size: 20px;
-      margin: auto auto auto 5%;
-    }
-  
-    #contact .help {
-      font-size: 15px;
-      padding: 1% 2%;
+  #contact h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin: 10% auto auto 5%;
+  }
+  .contact p {
+    font-size: 20px;
+    margin: auto auto auto 5%;
+  }
+
+  #contact .help {
+    font-size: 15px;
+    padding: 1% 2%;
     border-radius: 5px;
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-  
-    .location {
-      margin: auto auto 5% 5%;
-      font-size: medium;
-    }
-  
-    .phone {
-      margin: 5% auto auto 5%;
-    }
-    .phone img{
-      width: 20px;
-      
-    }
+  }
+
+  .location {
+    margin: auto auto 5% 5%;
+    font-size: medium;
+  }
+
+  .phone {
+    margin: 5% auto auto 5%;
+  }
+  .phone img {
+    width: 20px;
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -301,9 +300,21 @@
   #offers p {
     margin-top: 10%;
   }
-  #website .text p {
+  #offers .text {
     margin: 0;
-    margin-top: -5%;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 20px;
+    /* padding: 1%; */
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: -60px;
+    padding: 20px;
+  }
+  #website .text {
+    margin: 0;
+    margin-top: -1%;
   }
 
   #website {
@@ -318,20 +329,15 @@
 
   #logo {
     margin: 2% 5% auto 5%;
-    /* padding-top: 1%; */
   }
-  /* #logo2 {
-    margin-bottom: 8%;
-  } */
+
   #seo img {
     width: 130px;
   }
   #seo {
     margin: 2% 5% auto 5%;
   }
-  /* #seo2{
-    padding-top: 6%;
-  } */
+
   #seo,
   #website,
   #logo {
@@ -348,25 +354,25 @@
     text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
     font-size: 35px;
   }
-  
+
   /* ---------------------------------------------------- */
   /* clients section */
   #clientTop {
     margin-top: 15%;
     margin-bottom: 5%;
     font-size: 30px;
-  } 
+  }
 
   #clients {
-  text-align: center;
-  margin-top: -60px;
-}
-.slideshow-container {
-  display: block;
-  max-width: 100%;
-  position: relative;
-  /* margin: 10% 25% 10% 25%; */
-}
+    text-align: center;
+    margin-top: -60px;
+  }
+  .slideshow-container {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    /* margin: 10% 25% 10% 25%; */
+  }
 
   #business {
     display: flex;
@@ -378,7 +384,7 @@
     width: 450px;
     height: 350px;
   }
-  
+
   .next {
     right: 20%;
     border-radius: 10px;
@@ -388,7 +394,7 @@
     right: 75%;
     bottom: 40%;
   }
-  
+
   /* ----------------------------------------------------- */
   /* Team section */
   #ours {
@@ -400,12 +406,12 @@
   }
 
   #team h2 {
-  margin-bottom: 10%;
-  font-size: 50px;
-} 
+    margin-bottom: 10%;
+    font-size: 50px;
+  }
   #devina img {
     /* float: left; */
-    width: 100%; 
+    width: 100%;
     height: 100%;
   }
   #will img {
@@ -444,11 +450,11 @@
     margin: 0;
     padding: 2%;
   }
-  .text {
+  #team .text {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5%;
     margin-bottom: -60px;
     padding: 20px;
   }
@@ -467,9 +473,9 @@
   #contact .help {
     font-size: 25px;
     padding: 1% 2%;
-  border-radius: 10px;
-  border-color: transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .location {
@@ -479,7 +485,7 @@
 
   .phone {
     margin: 5% auto 5% 5%;
-    width:40px;
+    width: 40px;
   }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -560,7 +566,6 @@ button {
 /* -------------------------------------------------------------------------- */
 /* styles for clients */
 
-
 #clientTop h2 {
   padding-bottom: 2%;
 }
@@ -598,14 +603,6 @@ button {
   border-radius: 10px;
   user-select: none;
 }
-/* Position the "next button" to the right */
-/* .next {
-  right: 20%;
-  border-radius: 10px;
-}
-.prev {
-  right: 75%;
-} */
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
@@ -664,15 +661,6 @@ button {
   opacity: 1;
 }
 
-/* .text {
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: -60px;
-  padding: 20px;
-} */
-
 .circle {
   color: #d65f1c;
   position: absolute;
@@ -694,5 +682,3 @@ button {
   color: #ffffff;
   margin: auto auto auto 75%;
 }
-
-
