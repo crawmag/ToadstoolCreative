@@ -127,10 +127,10 @@
     width: 100%;
     text-align: left;
   }
-  #logo .text{
+  #logo .text {
     padding-top: 15%;
   }
-  #seo .text{
+  #seo .text {
     padding-top: 10%;
   }
 
@@ -156,7 +156,7 @@
   #security {
     padding-right: 10px;
   }
-  #security .coname{
+  #security .coname {
     padding-right: 5px;
   }
   /* carousel section */
@@ -242,7 +242,7 @@
     margin-top: 8%;
     padding: 5px 15px;
   }
-  .text2{
+  .text2 {
     font-size: 18px;
     text-align: left;
     text-indent: 20px;
@@ -386,7 +386,7 @@
   #security {
     padding-right: 25px;
   }
-  #security .coname{
+  #security .coname {
     padding-right: 25px;
     padding-bottom: 20px;
   }
@@ -425,15 +425,15 @@
     margin-bottom: 10%;
     font-size: 50px;
   }
-  
+
   #ours {
     display: flex;
-    
+
     /* margin: auto;
     width: 100%;
     padding: 2%; */
   }
-  #ours img{
+  #ours img {
     justify-content: space-evenly;
     padding: 1%;
   }
@@ -462,17 +462,17 @@
 
   .name {
     position: absolute;
-    bottom: 90px; 
+    bottom: 90px;
     right: 6px;
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
     font-size: 35px;
     margin: 0;
     padding: 2%;
-   }
+  }
   .title {
     position: absolute;
     bottom: -20px;
-    right: 6px; 
+    right: 6px;
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     word-break: normal;
@@ -621,7 +621,7 @@ button {
 }
 .coname {
   position: absolute;
-  bottom: 15px;
+  bottom: 30px;
   right: 10px;
   text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
   font-size: 35px;
@@ -663,6 +663,12 @@ button {
 .active,
 .dot:hover {
   background-color: #d65f1c;
+}
+
+.progress {
+  text-align: center;
+  font-size: 25px;
+  color: #d65f1c;
 }
 
 /* ----------------------------------------------------------------------------------- */
