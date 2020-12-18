@@ -28,10 +28,6 @@
     /* size: 1%; */
   }
 
-  #top {
-    background-position: center;
-  }
-
   #call {
     margin: 0;
     padding: 5%;
@@ -53,15 +49,15 @@
   }
 
   #services h2 {
-    font-size: 30px;
-    margin-bottom: 5%;
-    padding-top: 10%;
+    font-size: 25px;
+    padding-top: 5%;
   }
 
   #logo p,
   #seo p,
   #website p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 10px;
   }
 
   #logo img {
@@ -84,7 +80,8 @@
     position: relative;
     text-align: center;
     width: 250px;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 25%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -92,8 +89,8 @@
   .overlay2 {
     position: fixed;
     /* display: none; */
-    width: 90%;
-    height: 105%;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -113,6 +110,8 @@
   }
 
   #offers .text {
+    justify-items: center;
+    align-items: center;
     text-indent: 20px;
     position: absolute;
     top: 0;
@@ -127,6 +126,12 @@
     height: 160%;
     width: 100%;
     text-align: left;
+  }
+  #logo .text{
+    padding-top: 15%;
+  }
+  #seo .text{
+    padding-top: 10%;
   }
 
   /* ------------------------------------------------ */
@@ -144,8 +149,15 @@
   }
   #clientTop img {
     padding-top: 2%;
-    width: 35px;
+    /* width: 35px; */
     margin-bottom: 5%;
+    align-items: center;
+  }
+  #security {
+    padding-right: 10px;
+  }
+  #security .coname{
+    padding-right: 5px;
   }
   /* carousel section */
   /* Slideshow container */
@@ -188,6 +200,7 @@
   #team h2 {
     font-size: 25px;
     margin-top: 40%;
+    margin-bottom: 20%;
   }
   #ours img {
     width: 100%;
@@ -199,33 +212,41 @@
   #will,
   #magen {
     position: relative;
-    text-align: right;
+    /* text-align: right; */
   }
 
   .name {
+    /* display: inline-flex; */
     position: absolute;
     bottom: 15px;
     right: 210px;
-    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 30px;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.75);
+    font-size: 35px;
   }
-  #will .name {
+  /* #will .name {
     right: 160px;
-  }
+  } */
 
   .title {
     position: absolute;
-    bottom: 15px;
+    bottom: -65px;
     right: 6px;
-    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
-    font-size: 20px;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.75);
+    font-size: 28px;
   }
-  .text {
+  .text1 {
     color: white;
     font-size: 18px;
-    text-align: center;
-    /* margin-top: 2px; */
-    /* margin-bottom: -50px; */
+    text-align: left;
+    text-indent: 20px;
+    margin-top: 8%;
+    padding: 5px 15px;
+  }
+  .text2{
+    font-size: 18px;
+    text-align: left;
+    text-indent: 20px;
+    padding: 5px 15px;
   }
   /* ----------------------------------------------------- */
   /* styles for contact */
@@ -307,14 +328,8 @@
     font-size: 20px;
     /* padding: 1%; */
     color: white;
-    font-size: 20px;
-    margin-top: 5%;
-    margin-bottom: -60px;
+    margin-top: 25%;
     padding: 20px;
-  }
-  #website .text {
-    margin: 0;
-    margin-top: -1%;
   }
 
   #website {
@@ -397,32 +412,37 @@
 
   /* ----------------------------------------------------- */
   /* Team section */
-  #ours {
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 0;
-    width: 100%;
-    padding: 1%;
-  }
-
   #team h2 {
     margin-bottom: 10%;
     font-size: 50px;
   }
-  #devina img {
-    /* float: left; */
+  
+  #ours {
+    display: flex;
+    
+    /* margin: auto;
     width: 100%;
-    height: 100%;
+    padding: 2%; */
+  }
+  #ours img{
+    justify-content: space-evenly;
+    padding: 1%;
+  }
+
+  #devina img {
+    width: 100%;
+    height: 550px;
+    /* height: 80vh; */
   }
   #will img {
-    /* float: left; */
     width: 100%;
+    height: 550px;
     /* height: 100%; */
   }
   #magen img {
-    /* float: left; */
     width: 100%;
-    height: 100%;
+    height: 550px;
+    /* height: 100%; */
   }
   #devina,
   #will,
@@ -433,30 +453,40 @@
 
   .name {
     position: absolute;
-    bottom: 110px;
+    bottom: 90px; 
     right: 6px;
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
     font-size: 35px;
     margin: 0;
     padding: 2%;
-  }
+   }
   .title {
     position: absolute;
     bottom: -20px;
-    right: 6px;
+    right: 6px; 
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     word-break: normal;
     margin: 0;
     padding: 2%;
   }
-  #team .text {
+  #team .text1 {
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    text-indent: 20px;
+    margin-top: 20%;
+    margin-bottom: -60px;
+    padding: 35px;
+  }
+  #team .text2 {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    text-indent: 20px;
     margin-top: 5%;
     margin-bottom: -60px;
-    padding: 20px;
+    padding: 35px;
   }
 
   /*------------Contact section---------------*/
@@ -627,28 +657,22 @@ button {
 }
 
 /* ----------------------------------------------------------------------------------- */
-/* styles for team  */
+/*styles for team  */
 #team {
   text-align: center;
   margin-top: 20%;
 }
 
-#ours img {
-  display: block;
-}
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  /* height: 100%; */
-  width: 100%;
   opacity: 0;
   transition: 0.5s ease;
   background-color: #d65f1c;
-  margin: 0px;
-  padding: 5%;
+  /* padding: 2%; */
 }
 
 #devina:hover .overlay {
