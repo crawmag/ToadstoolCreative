@@ -32,6 +32,10 @@
   }
   #phone{
     padding-bottom: 5px;
+    width: 25px;
+  }
+  #fb{
+    width: 30px;
   }
 
   #call {
@@ -591,6 +595,9 @@
     width: 35px;
     padding-bottom: 5px;
   }
+#fb{
+  width: 40px;
+}
 }
 /* --------------------------------------------------------------------------------------------------------------- */
 /* outside of media queries */
