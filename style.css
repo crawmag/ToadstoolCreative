@@ -19,13 +19,13 @@
     font-size: 40px;
   }
   #header {
-    font-size: 15px;
+    font-size: 14px;
   }
-  #links img {
-    /* width: 10px; */
-    margin: 0;
-    padding: 25% 15% 10% 15%;
-    /* size: 1%; */
+  #links a {
+    padding: 2px;
+  }
+  #phone{
+    padding-bottom: 5px;
   }
 
   #call {
@@ -100,11 +100,23 @@
     cursor: pointer;
   }
 
+  #website:hover .overlay2 {
+  bottom: 0;
+  height: 130%;
+}
+#logo:hover .overlay2 {
+  bottom: 0;
+  height: 105%;
+}
+#seo:hover .overlay2 {
+  bottom: 0;
+  height: 120%;
+}
   .job {
     color: #d65f1c;
     position: absolute;
     top: 0px;
-    left: 5px;
+    left: 35px;
     text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
     font-size: 20px;
   }
@@ -118,20 +130,20 @@
     left: 0;
     right: 0;
     bottom: 0;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     background-color: #d65f1c;
-    padding: 5%;
+    padding: 15px;
     margin: 0%;
-    height: 160%;
-    width: 100%;
+    /* height: 150%;
+    width: 100%; */
     text-align: left;
   }
   #logo .text {
-    padding-top: 15%;
+    padding-top: 15px;
   }
   #seo .text {
-    padding-top: 10%;
+    /* padding-top: 10%; */
   }
 
   /* ------------------------------------------------ */
@@ -145,12 +157,14 @@
   #clientTop h2 {
     font-size: 25px;
     padding-top: 8%;
-    margin-top: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   #clientTop img {
-    padding-top: 2%;
-    /* width: 35px; */
-    margin-bottom: 5%;
+    /* padding-top: 2%; */
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
     align-items: center;
   }
   #security {
@@ -206,7 +220,6 @@
     width: 100%;
     height: 190px;
     object-fit: cover;
-    margin-top: 5%;
   }
   #devina,
   #will,
@@ -239,7 +252,7 @@
     font-size: 18px;
     text-align: left;
     text-indent: 20px;
-    margin-top: 8%;
+    margin-top: 5%;
     padding: 5px 15px;
   }
   .text2 {
@@ -270,14 +283,14 @@
 
   .location {
     margin: auto auto 5% 5%;
-    font-size: medium;
+    font-size: small;
   }
 
-  .phone {
+  .social {
     margin: 5% auto auto 5%;
   }
-  .phone img {
-    width: 20px;
+  .social a{
+    padding: 5px;
   }
 }
 
@@ -287,9 +300,19 @@
   /* top section and header */
   #toad {
     font-size: 60px;
+    font-weight: 500;
   }
+  #header h1{
+    font-weight: 400;
+  }
+
+  #links a{
+    padding: 10px;
+  }
+  
   #top p {
-    font-size: 25px;
+    font-size: 21px;
+    font-weight: lighter;
     margin: 0% 0% 5% 0%;
     padding-top: 4%;
   }
@@ -297,29 +320,32 @@
     /* font-size: 50px; */
     padding-top: 5%;
     margin: auto auto auto 5%;
+    width: 100%;
   }
+  
   #top .help {
-    font-size: 28px;
-    padding: 1% 2%;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 5px 10px;
     border-color: transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: auto auto 5% 5%;
   }
   /* ------------------------------------------------- */
   /* service section */
   #services {
-    font-size: 30px;
+    font-size: 25px;
   }
   #offers {
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #offers p {
-    margin-top: 10%;
+    margin-top: 20%;
   }
   #offers .text {
     margin: 0;
@@ -328,29 +354,48 @@
     font-size: 20px;
     /* padding: 1%; */
     color: white;
-    margin-top: 25%;
+    margin-top: 10%;
     padding: 20px;
   }
 
   #website {
-    margin: 2% 5% auto 5%;
+    margin: 2% 5% auto 7%;
   }
   #website img {
-    width: 120px;
+    width: 100px;
   }
   #logo img {
-    width: 120px;
+    width: 100px;
   }
 
   #logo {
     margin: 2% 5% auto 5%;
   }
+  #logo .text{
+    margin-top: 60px;
+  }
+  #seo .text{
+    margin-top: 55px;
+  }
 
   #seo img {
-    width: 130px;
+    width: 110px;
   }
   #seo {
     margin: 2% 5% auto 5%;
+  }
+
+  #website:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+  }
+  #logo:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+  }
+  #seo:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
   }
 
   #seo,
@@ -365,7 +410,7 @@
     color: #d65f1c;
     position: absolute;
     top: 70px;
-    left: 15px;
+    left: 25px;
     text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
     font-size: 35px;
   }
@@ -375,7 +420,14 @@
   #clientTop {
     margin-top: 15%;
     margin-bottom: 5%;
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  #clientTop img {
+    width: 43px;
+    height: 46px;
+    margin-top: 45px;
+    padding-top: 10px;
   }
 
   #clients {
@@ -401,7 +453,7 @@
   #business {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5%;
+    /* margin-top: -2px; */
     margin-bottom: 5%;
   }
   #business img {
@@ -423,15 +475,11 @@
   /* Team section */
   #team h2 {
     margin-bottom: 10%;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #ours {
     display: flex;
-
-    /* margin: auto;
-    width: 100%;
-    padding: 2%; */
   }
   #ours img {
     justify-content: space-evenly;
@@ -500,31 +548,40 @@
 
   /*------------Contact section---------------*/
   #contact h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 60px;
     margin: auto auto auto 5%;
   }
   .contact p {
-    font-size: 30px;
+    font-size: 25px;
     margin: auto auto auto 5%;
   }
 
   #contact .help {
     font-size: 25px;
-    padding: 1% 2%;
-    border-radius: 10px;
+    font-weight: lighter;
+    padding: 10px 15px;
     border-color: transparent;
+    border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto auto 5% 5%;
   }
 
   .location {
     margin: auto auto 5% 5%;
-    font-size: x-large;
+    font-size: large;
   }
 
-  .phone {
-    margin: 5% auto 5% 5%;
-    width: 40px;
+  .social {
+    display: flex;
+    margin: 5% auto auto 4%;
+  }
+  .social a{
+    padding: 15px;
+  }
+  #phone {
+    width: 35px;
+    padding-bottom: 5px;
   }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -532,7 +589,7 @@
 body {
   color: #ffffff;
   background-color: black;
-  font-family: "Asap", sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 h1 {
   font-weight: lighter;
@@ -551,6 +608,7 @@ button {
 }
 #header {
   margin: auto auto auto 5%;
+  font-weight: 100;
 }
 
 #links {
@@ -571,6 +629,7 @@ button {
   color: #ffffff;
 }
 
+
 /* --------------------------------------------------------------------- */
 /* styles for services */
 #services {
@@ -578,25 +637,16 @@ button {
   margin-top: 10%;
 }
 
-#website:hover .overlay2 {
-  opacity: 1;
-}
-#logo:hover .overlay2 {
-  opacity: 1;
-}
-#seo:hover .overlay2 {
-  opacity: 1;
-}
 /* having an issue with this section. it wont lay over the image like the team section */
 .overlay2 {
   position: absolute;
+  overflow: hidden;
   top: 0;
-  bottom: 0;
+  bottom: 100%;
   left: 0;
   right: 0;
-  /* height: 100%;
-  width: 100%; */
-  opacity: 0;
+  height: 0;
+  width: 100%;
   transition: 0.5s ease;
   background-color: #d65f1c;
   /* margin-left: 25%; */
@@ -605,12 +655,12 @@ button {
 /* -------------------------------------------------------------------------- */
 /* styles for clients */
 
-#clientTop h2 {
+/* #clientTop h2 {
   padding-bottom: 2%;
-}
-#clientTop img {
+} */
+/* #clientTop img {
   margin-top: 2%;
-}
+} */
 
 #security,
 #nathan,
@@ -680,24 +730,36 @@ button {
 
 .overlay {
   position: absolute;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
+  overflow: hidden;
   transition: 0.5s ease;
   background-color: #d65f1c;
-  /* padding: 2%; */
+ height: 100%;
+ width: 100%;
+ -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 1.0s ease;
+  transition: 1.0s ease;
 }
 
 #devina:hover .overlay {
-  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 #will:hover .overlay {
-  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 #magen:hover .overlay {
-  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .circle {
