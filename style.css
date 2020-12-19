@@ -13,16 +13,22 @@
   }
   /* top section and header */
   #coname {
-    display: flex;
+    width: 100%;
   }
   #toad {
-    font-size: 40px;
+    font-size: 30px;
   }
   #header {
     font-size: 14px;
+    width: 75%;
+  }
+  #links{
+    margin: auto;
+    padding-top: 8px;
+    display: flex;
   }
   #links a {
-    padding: 2px;
+    padding: 4px;
   }
   #phone{
     padding-bottom: 5px;
@@ -31,12 +37,14 @@
   #call {
     margin: 0;
     padding: 5%;
-    width: 100%;
+    width: 75%;
+    font-size: 12px;
+    line-height: 1.2em;
   }
 
   #top .help {
-    font-size: 15px;
-    border-radius: 10%;
+    font-size: 12px;
+    border-radius: 5px;
     border-color: transparent;
     padding: 1% 2%;
     margin-left: 5%;
@@ -249,14 +257,14 @@
   }
   .text1 {
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
     text-indent: 20px;
-    margin-top: 5%;
+    margin-top: 3px;
     padding: 5px 15px;
   }
   .text2 {
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
     text-indent: 20px;
     padding: 5px 15px;
@@ -264,17 +272,17 @@
   /* ----------------------------------------------------- */
   /* styles for contact */
   #contact h2 {
-    font-weight: 600;
-    font-size: 35px;
+    font-weight: 500;
+    font-size: 33px;
     margin: 10% auto auto 5%;
   }
   .contact p {
-    font-size: 20px;
+    font-size: 15px;
     margin: auto auto auto 5%;
   }
 
   #contact .help {
-    font-size: 15px;
+    font-size: 12px;
     padding: 1% 2%;
     border-radius: 5px;
     border-color: transparent;
@@ -283,7 +291,7 @@
 
   .location {
     margin: auto auto 5% 5%;
-    font-size: small;
+    font-size: smaller;
   }
 
   .social {
