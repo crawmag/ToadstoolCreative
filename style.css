@@ -183,32 +183,86 @@
     padding-right: 10px;
   }
   #security .coname {
-    padding-right: 5px;
+    right: 15px;
+    bottom: 150px;
+
+  }.gallery {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 80vw);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 65vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+    margin: 10%;
+  }
+ 
+
+  .gallery::-webkit-scrollbar {
+    width: 1em;
+    height: 0.7em;
+  }
+  .gallery::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
+  }
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: #d65f1c;
+  }
+ 
+  .active {
+    scroll-snap-type: unset;
+  }
+  .gallery li {
+    scroll-snap-align: center;
+    /* display: inline-block; */
+    border-radius: 3px;
+    font-size: 24px;
+    color: #ffffff;
+    list-style-type: none;
+    /* margin-right: 10%; */
+    /* line-height: 25px; */
+  }
+  .progress {
+    /* text-align: center; */
+    margin-right: 60px;
+    font-size: 25px;
+    color: #d65f1c;
+  }
+  .coname {
+    position: absolute;
+    bottom: 150px;
+    right: 10px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    color: #ffffff;
   }
   /* carousel section */
   /* Slideshow container */
-  .slideshow-container {
+  /* .slideshow-container {
     display: block;
     max-width: 100%;
     position: relative;
-    /* margin: 10% 25% 10% 25%; */
-  }
-  #business {
+    /* margin: 10% 25% 10% 25%; 
+  } */
+  /* #business {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
+  } */
 
   /* Hide the images by default */
-  .mySlides {
+  /* .mySlides {
     display: none;
-  }
+  } */
   #business img {
     width: 250px;
     height: 200px;
   }
-  .next {
+  /* .next {
     right: 10%;
     border-radius: 10px;
     bottom: 40%;
@@ -216,7 +270,7 @@
   .prev {
     right: 80%;
     bottom: 40%;
-  }
+  } */
 
   /* ------------------------------------------------ */
   /* Team Section */
@@ -446,34 +500,88 @@
     text-align: center;
     margin-top: -60px;
   }
+  .progress {
+    /* text-align: center; */
+    margin-right: 150px;
+    font-size: 25px;
+    color: #d65f1c;
+  }
 
   #security {
     padding-right: 25px;
   }
   #security .coname {
-    padding-right: 25px;
-    padding-bottom: 20px;
+    right: 40px;
+    bottom: 190px;
   }
+  .coname {
+    position: absolute;
+    bottom: 160px;
+    right: 10px;
+    text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    color: #ffffff;
+  }
+  
+  .gallery {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 40vw);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    overflow: auto;
+    height: 45vh;
+    scroll-snap-type: both mandatory;
+    scroll-padding: 1rem;
+    margin: auto 10%;
+  }
+ 
 
-  .slideshow-container {
+  .gallery::-webkit-scrollbar {
+    width: 1em;
+    height: 0.7em;
+  }
+  .gallery::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(240, 240, 240, 1);
+  }
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: #d65f1c;
+  }
+ 
+  .active {
+    scroll-snap-type: unset;
+  }
+  .gallery li {
+    scroll-snap-align: center;
+    /* display: inline-block; */
+    border-radius: 3px;
+    font-size: 24px;
+    color: #ffffff;
+    list-style-type: none;
+    /* margin-right: 10%; */
+    /* line-height: 25px; */
+  }
+  
+  /* .slideshow-container {
     display: block;
     max-width: 100%;
     position: relative;
-    /* margin: 10% 25% 10% 25%; */
-  }
+    /* margin: 10% 25% 10% 25%; 
+  } */
 
-  #business {
+  /* #business {
     display: flex;
     justify-content: space-evenly;
-    /* margin-top: -2px; */
+    /* margin-top: -2px; 
     margin-bottom: 5%;
-  }
+  } */
   #business img {
     width: 450px;
     height: 350px;
   }
 
-  .next {
+  /* .next {
     right: 20%;
     border-radius: 10px;
     bottom: 40%;
@@ -481,7 +589,7 @@
   .prev {
     right: 75%;
     bottom: 40%;
-  }
+  } */
 
   /* ----------------------------------------------------- */
   /* Team section */
@@ -689,16 +797,16 @@ button {
   position: relative;
   text-align: right;
 }
-.coname {
+/* .coname {
   position: absolute;
-  bottom: 30px;
+  bottom: 160px;
   right: 10px;
   text-shadow: -14px 11px 10px rgba(0, 0, 0, 0.25);
   font-size: 35px;
   color: #ffffff;
-}
+} */
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -711,15 +819,15 @@ button {
   transition: 0.6s ease;
   border-radius: 10px;
   user-select: none;
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/* .prev:hover,
 .next:hover {
   background-color: #d65f1c;
-}
+} */
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -728,18 +836,14 @@ button {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+} */
 
-.active,
+/* .active,
 .dot:hover {
   background-color: #d65f1c;
-}
+} */
 
-.progress {
-  text-align: center;
-  font-size: 25px;
-  color: #d65f1c;
-}
+
 
 /* ----------------------------------------------------------------------------------- */
 /*styles for team  */
