@@ -492,11 +492,15 @@
 
   #ours {
     display: flex;
+    justify-content: space-evenly;
   }
   #ours img {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding: 1%;
   }
+  /* .ourimages{
+    justify-content: space-between;
+  } */
 
   #devina img {
     width: 100%;
