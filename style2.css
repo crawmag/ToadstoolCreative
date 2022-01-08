@@ -19,3 +19,23 @@
 @media only screen and (min-width: 1000px){
         
 }
+
+/* -------------------------------------------- Outside media queries ----------------------------------------------- */
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.service-section{
+  background-color: gray;
+}
+button{
+  background-color: lightblue;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
