@@ -502,7 +502,7 @@
     height: 350px;
   }
   #uvs img{
-    width: 550px;
+    width: 450px;
   }
 
   .next {
@@ -682,7 +682,7 @@ button {
 /* styles for the top section with co.name */
 #coname {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 #header {
   margin: auto auto auto 5%;
